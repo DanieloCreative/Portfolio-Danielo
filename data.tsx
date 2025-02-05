@@ -118,13 +118,13 @@ export const dataPortfolio = [
         title: "FitLivePro.apk",
         image: "/image-1.jpg",
         urlGithub: "https://github.com/DanieloCreative/FitLivePro",
-        urlDemo: "#!",
+        urlDemo: "https://youtu.be/yXVRa4C40kE",
     },
     {
         id: 2,
         title: "Portfolio Danielo",
         image: "/image-2.jpg",
-        urlGithub: "#!",
+        urlGithub: "https://github.com/DanieloCreative/Portfolio-Danielo",
         urlDemo: "#!",
     },
     
