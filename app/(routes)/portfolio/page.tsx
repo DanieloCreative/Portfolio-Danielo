@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { dataPortfolio } from "@/data";
-import AvatarPortfolio from "@/app/components/avatar-portfolio";
 import CircleImage from "@/app/components/circle-image";
+import CoverParticles from "@/app/components/cover-particles";
 import TransitionPage from "@/app/components/transition-page";
 import ContainerPage from "@/app/components/container-page";
 import PortfolioBox from "@/app/components/portfolio-box";
@@ -11,7 +11,7 @@ const PortfolioPage = () => {
     return (
         <ContainerPage>
             <TransitionPage />
-            <AvatarPortfolio />
+            <CoverParticles/>
             <CircleImage />
             
             {/* Contenedor principal centrado */}

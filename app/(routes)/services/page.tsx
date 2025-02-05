@@ -1,4 +1,5 @@
 import AvatarServices from "@/app/components/avatar-services";
+import CoverParticles from "@/app/components/cover-particles";
 import CircleImage from "@/app/components/circle-image";
 import SliderServices from "@/app/components/slider-services";
 import TransitionPage from "@/app/components/transition-page";
@@ -8,6 +9,7 @@ const ServicesPage = () => {
         <>
 
             <TransitionPage />
+            <CoverParticles/>
             <CircleImage />
             <AvatarServices />
             <div className="grid items-center justify-center h-screen max-w-5xl gap-6 mx-auto md:grid-cols-2">
