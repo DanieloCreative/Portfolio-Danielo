@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
-import {Urbanist} from "next/font/google"
+import { Urbanist } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/navbar";
 import Header from "./components/header";
+import Head from "next/head"; // Asegúrate de importar Head
 
-const urbanist = Urbanist({subsets: ["latin"]});
+const urbanist = Urbanist({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "DanieloPortFolio",
@@ -18,11 +19,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body
-        className={urbanist.className}>
-          <Navbar/>
-          <Header/>
-          {children}</body>
+      <Head>
+        {/* Metaetiqueta de verificación de Google */}
+        <meta
+          name="google-site-verification"
+          content="sNdwOQ0S-7L3YeMAFopXjZIIf83vKNYKUyRR3o50_08"
+        />
+      </Head>
+      <body className={urbanist.className}>
+        <Navbar />
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
