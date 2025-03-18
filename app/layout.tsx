@@ -24,6 +24,7 @@ export default function RootLayout({
         <meta
           name="google-site-verification"
           content="sNdwOQ0S-7L3YeMAFopXjZIIf83vKNYKUyRR3o50_08"
+          
         />
       </Head>
       <body className={urbanist.className}>
