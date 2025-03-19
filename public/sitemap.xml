@@ -4,4 +4,16 @@
     <loc>https://danielocreative.netlify.app/</loc>
     <priority>1.0</priority>
   </url>
+  <url>
+    <loc>https://danielocreative.netlify.app/about-me</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://danielocreative.netlify.app/services</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://danielocreative.netlify.app/portfolio</loc>
+    <priority>0.8</priority>
+  </url>
 </urlset>
