@@ -127,6 +127,13 @@ export const dataPortfolio = [
         urlGithub: "https://github.com/DanieloCreative/Portfolio-Danielo",
         urlDemo: "#!",
     },
+    {
+        id: 3,
+        title: "Clinica veterinaria",
+        image: "/image-3.jpg",
+        urlGithub: "https://github.com/DanieloCreative/novavet-clinic.git",
+        urlDemo: "#!",
+    },
     
 ];
 
