@@ -115,24 +115,24 @@ export const serviceData = [
 export const dataPortfolio = [
     {
         id: 1,
-        title: "FitLivePro.apk",
+        title: "FitLivePro (APP MOBILE)",
         image: "/image-1.jpg",
         urlGithub: "https://github.com/DanieloCreative/FitLivePro",
         urlDemo: "https://youtu.be/yXVRa4C40kE",
     },
     {
         id: 2,
-        title: "Portfolio Danielo",
+        title: "Portfolio Danielo (WEB DESIGN)",
         image: "/image-2.jpg",
         urlGithub: "https://github.com/DanieloCreative/Portfolio-Danielo",
         urlDemo: "#!",
     },
     {
         id: 3,
-        title: "Clinica veterinaria",
+        title: "Clinica veterinaria (WEB DESIGN)",
         image: "/image-3.jpg",
         urlGithub: "https://github.com/DanieloCreative/novavet-clinic.git",
-        urlDemo: "#!",
+        urlDemo: "https://novavetclinic.netlify.app/",
     },
     
 ];
